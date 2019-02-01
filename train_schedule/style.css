@@ -50,3 +50,9 @@ form {
   text-align: left;
   padding: 10px;
 }
+
+.sched {
+  align-content: center;
+  text-align: center;
+  margin: auto;
+}
