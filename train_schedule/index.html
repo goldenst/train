@@ -28,7 +28,8 @@
 
 <body>
   <div class="top-bar"  >
-    <div id="time">Current Date and Time <br>
+    <div id="">Current Time <br>
+      <div id="time"></div>
 
     </div>
     <h1>Anytime is Train Time</h1>
@@ -47,7 +48,8 @@
             <th scope="col">Destination</th>
             <th scope="col">Start time</th>
             <th scope="col">Intervel</th>
-            <th scope="col">Next Train</th>
+            <!-- <th scope="col">Next Train</th> -->
+            <th scope="col">Miniuts Away</th>
           </tr>
         </thead>
         <tbody>
@@ -73,7 +75,7 @@
       </div>
       <div class="form-group">
         <label for="first-train-time">First Train Time (HH:mm - military time)</label>
-        <input type="time" class="form-control" id="first-train">
+        <input type="text" class="form-control" id="first-train">
       </div>
       <div class="form-group">
         <label for="intervel">Train Intervel</label>
